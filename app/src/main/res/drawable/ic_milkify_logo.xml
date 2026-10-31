@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Card Background: Crisp White with Rounded Corners -->
+    <path
+        android:pathData="M24,4 L96,4 A20,20 0 0,1 116,24 L116,96 A20,20 0 0,1 96,116 L24,116 A20,20 0 0,1 4,96 L4,24 A20,20 0 0,1 24,4 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeColor="#B3E5FC" />
+
+    <!-- ============================================== -->
+    <!-- Circular Farm Crest & Cow (Centered at X=60, Y=45, Radius=28) -->
+    <!-- ============================================== -->
+    <!-- Crest Sky Blue Border -->
+    <path
+        android:pathData="M60,17 A28,28 0 1,0 60,73 A28,28 0 1,0 60,17 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#29B6F6" />
+
+    <!-- Circular Crest Gradient Background -->
+    <path
+        android:pathData="M60,17.5 A27.5,27.5 0 1,0 60,72.5 A27.5,27.5 0 1,0 60,17.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="60"
+                android:startY="17"
+                android:endX="60"
+                android:endY="73"
+                android:type="linear">
+                <item android:color="#4FC3F7" android:offset="0.0" />
+                <item android:color="#29B6F6" android:offset="0.5" />
+                <item android:color="#0288D1" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Green Rolling Farm Pastures -->
+    <path
+        android:pathData="M55,51 Q69,46 86,53 A27.5,27.5 0 0,1 84,67 Q70,62 51,61 Z"
+        android:fillColor="#43A047" />
+
+    <path
+        android:pathData="M57,55 Q70,50 85,57 A27.5,27.5 0 0,1 80,70 Q67,65 53,63 Z"
+        android:fillColor="#2E7D32" />
+
+    <!-- Hill Lines -->
+    <path
+        android:pathData="M61,52 Q72,48 85,55"
+        android:strokeWidth="0.8"
+        android:strokeColor="#81C784" />
+    <path
+        android:pathData="M59,57 Q70,52 83,60"
+        android:strokeWidth="0.8"
+        android:strokeColor="#81C784" />
+
+    <!-- Farm Silo and Barn -->
+    <path
+        android:pathData="M78,39 L80.5,39 L80.5,47 L78,47 Z"
+        android:fillColor="#0D47A1" />
+    <path
+        android:pathData="M78,39 C78,37.5 80.5,37.5 80.5,39 Z"
+        android:fillColor="#0D47A1" />
+
+    <!-- Barn -->
+    <path
+        android:pathData="M71,41 L74.5,37.5 L78,41 L78,48 L71,48 Z"
+        android:fillColor="#1565C0" />
+    <path
+        android:pathData="M70.5,41.5 L74.5,37.5 L78.5,41.5"
+        android:strokeWidth="0.8"
+        android:strokeColor="#0D47A1" />
+    <path
+        android:pathData="M73.5,45 L75.5,45 L75.5,48 L73.5,48 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Tree -->
+    <path
+        android:pathData="M83,46 A2.5,2.5 0 1,0 83,41 A2.5,2.5 0 1,0 83,46 Z"
+        android:fillColor="#2E7D32" />
+
+    <!-- ============================================== -->
+    <!-- Holstein-Friesian Cow                            -->
+    <!-- ============================================== -->
+    <!-- Horns -->
+    <path
+        android:pathData="M48,29 Q45,23 42,26 Q46,29 49,31 Z"
+        android:fillColor="#ECEFF1"
+        android:strokeWidth="0.5"
+        android:strokeColor="#455A64" />
+    <path
+        android:pathData="M68,29 Q71,23 74,26 Q70,29 67,31 Z"
+        android:fillColor="#ECEFF1"
+        android:strokeWidth="0.5"
+        android:strokeColor="#455A64" />
+
+    <!-- Ears -->
+    <path
+        android:pathData="M47,34 C43,30 35,34 36,38 C38,40 44,39 47,37 Z"
+        android:fillColor="#1E293B" />
+    <path
+        android:pathData="M45,35 C42,33 38,35 39,38 C40,39 44,38 45,37 Z"
+        android:fillColor="#F48FB1" />
+
+    <path
+        android:pathData="M69,34 C73,30 81,34 80,38 C78,40 72,39 69,37 Z"
+        android:fillColor="#1E293B" />
+    <path
+        android:pathData="M71,35 C74,33 78,35 77,38 C76,39 72,38 71,37 Z"
+        android:fillColor="#F48FB1" />
+
+    <!-- Neck / Body (White base) -->
+    <path
+        android:pathData="M42,48 C40,44 45,33 51,32 L65,32 C71,33 76,44 74,48 C72,56 69,61 67,62 L50,62 C47,61 44,56 42,48 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Neck & Chest Black Spots -->
+    <path
+        android:pathData="M42,48 C41,43 47,38 49,41 C51,43 50,50 48,52 C45,53 42,51 42,48 Z"
+        android:fillColor="#0F172A" />
+    <path
+        android:pathData="M48,51 C47,53 50,60 54,62 L48,62 C45,61 45,56 48,51 Z"
+        android:fillColor="#0F172A" />
+    <path
+        android:pathData="M66,48 C68,44 73,45 72,50 C71,55 67,59 65,61 C64,59 64,52 66,48 Z"
+        android:fillColor="#0F172A" />
+
+    <!-- Cow Head (White base) -->
+    <path
+        android:pathData="M48,31 Q58,29 68,31 Q71,38 70,46 Q70,54 65,56 Q58,57 51,56 Q46,54 46,46 Q45,38 48,31 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Head Black Patches -->
+    <path
+        android:pathData="M59,30 Q66,30 68,35 Q71,42 67,47 Q62,47 60,42 Q58,36 59,30 Z"
+        android:fillColor="#0F172A" />
+    <path
+        android:pathData="M54,30 Q58,28 61,30 Q60,34 58,34 Q55,34 54,30 Z"
+        android:fillColor="#0F172A" />
+    <path
+        android:pathData="M47,36 Q49,34 51,38 Q51,43 47,44 Q46,40 47,36 Z"
+        android:fillColor="#0F172A" />
+
+    <!-- Cow Eyes -->
+    <!-- Left eye -->
+    <path
+        android:pathData="M52,40 A2.2,2.7 0 1,0 52,35 A2.2,2.7 0 1,0 52,40 Z"
+        android:fillColor="#0F172A" />
+    <path
+        android:pathData="M51.3,37 A0.7,0.7 0 1,0 51.3,35.6 A0.7,0.7 0 1,0 51.3,37 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Right eye -->
+    <path
+        android:pathData="M64,40 A2.2,2.7 0 1,0 64,35 A2.2,2.7 0 1,0 64,40 Z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M64,39.8 A1.8,2.3 0 1,0 64,35.2 A1.8,2.3 0 1,0 64,39.8 Z"
+        android:fillColor="#0F172A" />
+    <path
+        android:pathData="M63.3,37 A0.7,0.7 0 1,0 63.3,35.6 A0.7,0.7 0 1,0 63.3,37 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Cow Muzzle / Snout -->
+    <path
+        android:pathData="M51,46 Q58,45 64.5,46 Q67.5,50 66.5,52 Q65.5,57 58.5,57 Q51.5,57 50,52 Q49,50 51,46 Z"
+        android:fillColor="#1E293B" />
+    <path
+        android:pathData="M53.5,50 A1,0.7 20 1,0 53.5,48.6 A1,0.7 20 1,0 53.5,50 Z"
+        android:fillColor="#0F172A" />
+    <path
+        android:pathData="M61.5,50 A1,0.7 -20 1,0 61.5,48.6 A1,0.7 -20 1,0 61.5,50 Z"
+        android:fillColor="#0F172A" />
+    <path
+        android:pathData="M54.5,53.5 Q58,55.5 61.5,53.5"
+        android:strokeWidth="1.0"
+        android:strokeColor="#334155" />
+
+    <!-- ============================================== -->
+    <!-- Milk Splash Wave & Leaping Drops               -->
+    <!-- ============================================== -->
+    <path
+        android:pathData="M29,51 Q37,45 47,56 Q60,67 76,59 Q84,54 91,62 Q81,70 62,69 Q39,66 29,51 Z"
+        android:fillColor="#0288D1" />
+
+    <path
+        android:pathData="M31,51.5 Q38,47 47,56.5 Q59,66 75,59 Q82,55.5 89,62 Q80,68 62,67 Q40,65 31,51.5 Z"
+        android:fillColor="#FFFFFF" />
+
+    <path
+        android:pathData="M37,52 Q46,58 58,65 Q70,61 80,60.5 Q69,65 58,65.5 Q46,62 37,52 Z"
+        android:fillColor="#E1F5FE" />
+
+    <!-- Droplets -->
+    <path
+        android:pathData="M25,53 Q22,50 26,48 Q28,52 25,53 Z"
+        android:fillColor="#03A9F4" />
+    <path
+        android:pathData="M28,58 Q26,55 29,54 Q31,56 28,58 Z"
+        android:fillColor="#03A9F4" />
+    <path
+        android:pathData="M31,45 Q30,43 32,42 Q34,44 31,45 Z"
+        android:fillColor="#03A9F4" />
+    <path
+        android:pathData="M91,50 Q94,47 96,49 Q93,53 91,50 Z"
+        android:fillColor="#03A9F4" />
+    <path
+        android:pathData="M88,56 Q91,54 93,56 Q91,58 88,56 Z"
+        android:fillColor="#03A9F4" />
+    <path
+        android:pathData="M94,57 Q97,55 98,57 Q96,59 94,57 Z"
+        android:fillColor="#03A9F4" />
+
+    <!-- ============================================== -->
+    <!-- Stylized Typography: "Milkify"                 -->
+    <!-- ============================================== -->
+    <!-- 'M' in Navy Blue (#0D47A1) -->
+    <path
+        android:pathData="M22,86 C20,83 24,76 28,76 C30,76 32,79 33,83 C35,77 39,76 41,76 C44,76 47,79 46,86 C45,91 42,94 40,94 C38,94 39,89 40,86 C40,84 39,81 37,81 C35,81 33,84 32,88 L31,94 L26,94 C27,89 28,85 28,81 C28,79 26,79 25,83 C24,86 22,92 21,94 L17,94 C19,90 21,88 22,86 Z"
+        android:fillColor="#0D47A1" />
+
+    <!-- 'i' in Navy Blue -->
+    <path
+        android:pathData="M47,82 L51,82 L48,94 L44,94 Z"
+        android:fillColor="#0D47A1" />
+
+    <!-- Fresh Green Leaf Accent as Dot of 'i' (#4CAF50) -->
+    <path
+        android:pathData="M48.5,76 C47,73 51,71 53.5,72.5 C54.5,75 52,78 48.5,76 Z"
+        android:fillColor="#43A047" />
+
+    <!-- 'l' in Navy Blue -->
+    <path
+        android:pathData="M53,74 L57,74 L52,94 L48,94 Z"
+        android:fillColor="#0D47A1" />
+
+    <!-- 'k' in Navy Blue -->
+    <path
+        android:pathData="M57,74 L61,74 L58,84 L63,81 L67,81 L61,87 L65,94 L60,94 L57,88 L55,94 L51,94 Z"
+        android:fillColor="#0D47A1" />
+
+    <!-- 'i' in Sky Blue (#0288D1) -->
+    <path
+        android:pathData="M67,82 L71,82 L68,94 L64,94 Z"
+        android:fillColor="#0288D1" />
+    <path
+        android:pathData="M70,78 A1.5,1.5 0 1,0 70,75 A1.5,1.5 0 1,0 70,78 Z"
+        android:fillColor="#0288D1" />
+
+    <!-- 'f' in Sky Blue -->
+    <path
+        android:pathData="M72,83 L76,83 L77,80 C78,76 82,75 84,77 L83,79 C82,78 80,79 80,80 L82,80 L81,83 L78,83 L74,97 L70,97 L73,83 Z"
+        android:fillColor="#0288D1" />
+
+    <!-- 'y' in Sky Blue -->
+    <path
+        android:pathData="M82,82 L86,82 L82,89 L86,82 L90,82 L84,94 C82,99 77,100 73,99 L74,97 C76,98 79,97 80,94 Z"
+        android:fillColor="#0288D1" />
+
+    <!-- Underline Swoosh -->
+    <path
+        android:pathData="M24,95 Q48,103 82,92 Q55,99 24,95 Z"
+        android:fillColor="#0288D1" />
+
+    <!-- ============================================== -->
+    <!-- Subtitle: "— Fresh Milk • Pure Trust —"         -->
+    <!-- ============================================== -->
+    <!-- Left line -->
+    <path
+        android:pathData="M16,104 L29,104"
+        android:strokeWidth="1.5"
+        android:strokeColor="#0288D1"
+        android:strokeLineCap="round" />
+
+    <!-- Subtitle dots & text in Navy Blue -->
+    <path
+        android:pathData="M33,104 L37,104 M39,104 M41,104 L46,104 M48,104 L52,104 M54,104 L56,104"
+        android:strokeWidth="1.2"
+        android:strokeColor="#0D47A1"
+        android:strokeLineCap="round" />
+
+    <!-- Dot -->
+    <path
+        android:pathData="M60,104 A1.2,1.2 0 1,0 60,101.6 A1.2,1.2 0 1,0 60,104 Z"
+        android:fillColor="#0288D1" />
+
+    <path
+        android:pathData="M64,104 L68,104 M70,104 L74,104 M76,104 L82,104 M84,104 L87,104"
+        android:strokeWidth="1.2"
+        android:strokeColor="#0D47A1"
+        android:strokeLineCap="round" />
+
+    <!-- Right line -->
+    <path
+        android:pathData="M91,104 L104,104"
+        android:strokeWidth="1.5"
+        android:strokeColor="#0288D1"
+        android:strokeLineCap="round" />
+
+</vector>

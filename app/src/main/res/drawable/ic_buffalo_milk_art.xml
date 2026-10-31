@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Rich Deep Slate Background -->
+    <path
+        android:pathData="M0,0h200v200h-200z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="200"
+                android:endY="200"
+                android:type="linear">
+                <item android:color="#1A237E" android:offset="0.0" />
+                <item android:color="#0D47A1" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Traditional Clay Matka Pot for Buffalo Milk in Terracotta Red -->
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M70,85 C70,75 80,68 100,68 C120,68 130,75 130,85 C146,95 155,115 155,135 C155,160 130,175 100,175 C70,175 45,160 45,135 C45,115 54,95 70,85 Z" />
+    <!-- Matka Rim in Dark Brown/Red -->
+    <path
+        android:fillColor="#BF360C"
+        android:pathData="M75,65 h50 a5,5 0 0,1 5,5 v5 a5,5 0 0,1 -5,5 h-50 a5,5 0 0,1 -5,-5 v-5 a5,5 0 0,1 5,-5 z" />
+    <!-- Overflowing Rich Cream / White Buffalo Milk -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,72 C80,72 88,80 100,80 C112,80 120,72 120,72 C125,72 128,78 126,85 C124,92 118,98 100,98 C82,98 76,92 74,85 C72,78 75,72 80,72 Z" />
+    <!-- Thick Cream Splash -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M97,100 C97,100 92,120 95,128 C97,133 103,133 105,128 C108,120 103,100 103,100 Z" />
+    <!-- Golden Malai Layer Badge -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M135,45 L143,55 L155,52 L150,63 L158,70 L146,73 L145,85 L135,78 L125,85 L124,73 L112,70 L120,63 L115,52 L127,55 Z" />
+    <!-- White Drop in Star Badge -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M135,58 C135,58 131,63 131,65 C131,67.2 132.8,69 135,69 C137.2,69 139,67.2 139,65 C139,63 135,58 135,58 Z" />
+</vector>

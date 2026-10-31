@@ -1,0 +1,7 @@
+{
+  "name": "Milkify",
+  "description": "Milkify - Fresh farm-to-home milk delivery management system with Customer, Rider, and Admin interfaces operating in Joura, Morena, MP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

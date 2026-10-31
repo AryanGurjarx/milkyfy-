@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Rich Golden Amber Background -->
+    <path
+        android:pathData="M0,0h200v200h-200z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="200"
+                android:endY="200"
+                android:type="linear">
+                <item android:color="#F57F17" android:offset="0.0" />
+                <item android:color="#E65100" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Ghee Jar Body in Warm Glass -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M65,70 h70 a10,10 0 0,1 10,10 v75 a15,15 0 0,1 -15,15 h-60 a15,15 0 0,1 -15,-15 v-75 a10,10 0 0,1 10,-10 z" />
+    <!-- Rich Golden Danedar Ghee inside Jar -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M68,95 h64 v60 a10,10 0 0,1 -10,10 h-44 a10,10 0 0,1 -10,-10 z" />
+    <!-- Golden Highlights -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M80,105 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M110,120 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 z" />
+    <!-- Jar Golden Metallic Lid -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M60,60 h80 a6,6 0 0,1 6,6 v8 a2,2 0 0,1 -2,2 h-88 a2,2 0 0,1 -2,-2 v-8 a6,6 0 0,1 6,-6 z" />
+    <!-- Red Seal Ribbon on Lid -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M95,60 h10 v40 l-5,-5 l-5,5 z" />
+    <!-- Traditional Wooden Dipper / Spoon -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M135,40 L160,110 L150,114 L125,44 Z" />
+    <!-- Pure Ghee Drop dripping from spoon -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M152,118 C152,118 147,126 147,130 C147,132.8 149.2,135 152,135 C154.8,135 157,132.8 157,130 C157,126 152,118 152,118 Z" />
+</vector>
